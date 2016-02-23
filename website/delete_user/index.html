@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>hooga / Manage Profile</title>
+	<link rel="stylesheet" href="../assets/styles.css"/>
+	<meta charset="utf-8"/>
+</head>
+<body class="white">
+	<header>
+		<div class="wrapper widthWrapper">
+			<a href="../home/index.html" class="left">
+				<img class="homeLogo" src="../assets/homeLogo.png"/>
+				<h3>hooga</h3>
+			</a>
+			<div class="right">
+				<img class="user" src="../assets/user.jpg"/>
+				<div class="arrowDown"></div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="dashboardRow">
+			<div class="widthWrapper">
+				<h2 class="greenOverride">Dashboard</h2>
+				<h2 class="arrowGrey">></h2>
+				<h2>Manage Profile</h2>
+			</div>
+		</div>
+		<div class="content widthWrapper relative">
+			<h1>Manage Profile</h1>
+			<p>Manage your profile. Have questions? <a href="../contact_us/index.html" target="_blank">Contact us directly.</a></p>
+			<a href="#" class="greenButton deleteUser">Delete User</a>
+		</div>
+		<section class="widthWrapper formWrapper">
+			<form>
+				<div class="flexWrapper">
+					<div class="leftCol">
+						<label>First Name</label>
+						<label>Last Name</label>
+						<label>Email Address</label>
+						<label>Password</label>
+						<label>Phone</label>
+						<label>Brokerage</label>
+						<label>Address 1</label>
+						<label>Address 2</label>
+						<label>City</label>
+						<label>State</label>
+						<label>Zip</label>
+						<label>Image</label>
+					</div>
+					<div class="rightCol">
+						<input type="text">
+						<input type="text">
+						<input type="text">
+						<input type="password">
+						<input type="text">
+						<select name="brokerage">
+							<option value="brokerage">AAA Brokerage</option>
+						</select>
+						<input type="text">
+						<input type="text">
+						<input type="text">
+						<select name="state">
+							<option value="state">AL</option>
+						</select>
+						<input type="text">
+						<img class="user" src="../assets/user.jpg"/>
+					</div>
+				</div>
+			</form>
+		</section>
+		<div class="pageBottom widthWrapper">
+			<input class="greenButton" type="submit" value="Submit"/>
+		</div>
+	</main>
+	<footer>
+		<div class="widthWrapper">
+			<span>&copy 2015 Hooga, Inc. All rights reserved. <a href="#">Terms of Service</a></span>
+		</div>
+	</footer>
+	<div class="overlay extraHeight">
+		<form>
+			<h1>Are you sure?</h1>
+			<p>Are you sure you wish to delete this user?</p>
+			<a href="#" class="greenButton">Confirm</a>
+			<a href="#" class="cancel greenButton">Cancel</a>
+			<a class="close" href="#">X</a>
+		</form>
+	</div>
+</body>
+</html>
